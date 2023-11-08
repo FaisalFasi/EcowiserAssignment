@@ -8,7 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import { useDispatch, useSelector } from "react-redux";
-import { fetchNotes, createNote, deleteNote } from "../../slices/noteSlice";
+import { fetchNotes, createNote, deleteNote } from "../../Slices/noteSlice";
 
 const NOTE_PER_PAGE = 6;
 

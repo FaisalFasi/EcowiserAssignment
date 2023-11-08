@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import CardPopUp from "../../components/CardPopUp/CardPopUp";
 import { useDispatch } from "react-redux";
-import { updateNote } from "../../slices/noteSlice";
+import { updateNote } from "../../Slices/noteSlice";
 import { toast } from "react-toastify";
 
 const Card = ({ note, handleDeleteNote }) => {

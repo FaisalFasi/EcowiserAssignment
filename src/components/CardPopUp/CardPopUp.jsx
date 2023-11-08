@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 import TextArea from "../TextArea/TextArea";
 import { useSelector, useDispatch } from "react-redux";
 import { toast } from "react-toastify";
-import { updateNote } from "../../slices/noteSlice";
+import { updateNote } from "../../Slices/noteSlice";
 
 const CardPopUp = ({ onClose, id, body, tag_line, title }) => {
   const dispatch = useDispatch();
