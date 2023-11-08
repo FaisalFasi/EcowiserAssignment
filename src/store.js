@@ -1,5 +1,4 @@
 // store.js
-
 import { configureStore } from "@reduxjs/toolkit";
 
 import notesReducer from "./slices/noteSlice";

@@ -1,5 +1,4 @@
 // notesSlice.js
-
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import supabase from "../services/api";
 
@@ -9,7 +8,6 @@ const initialState = {
   error: null,
 };
 
-// pinned things first and then by inserted_at
 function sortNotesPrioPinned(notes) {
   notes.sort((a, b) => {
     let pinVal = 0;
